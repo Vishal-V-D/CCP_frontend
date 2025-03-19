@@ -1,0 +1,25 @@
+.hero-section {
+    background: url('../assets/hero_bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 18px;
+}

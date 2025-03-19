@@ -1,0 +1,16 @@
+.about-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-hero {
+    background: #f4f4f4;
+    padding: 50px;
+  }
+  
+  .about-content {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  

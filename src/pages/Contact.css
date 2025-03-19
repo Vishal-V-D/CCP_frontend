@@ -1,0 +1,16 @@
+.contact-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-hero {
+    background: #eef;
+    padding: 50px;
+  }
+  
+  .contact-details {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  

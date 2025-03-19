@@ -1,0 +1,31 @@
+.language-selector {
+    position: relative;
+    display: inline-block;
+}
+
+.language-dropdown {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    display: none;
+}
+
+.language-selector:hover .language-dropdown {
+    display: block;
+}
+
+.language-dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.language-dropdown a:hover {
+    background: #1d3c6a;
+    color: white;
+}

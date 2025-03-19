@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #002366;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background: #ddd;
+  }
+  
+  .hero-btn {
+    text-decoration: none;
+    background: #002366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Services */
+  .services {
+    padding: 20px;
+  }
+  
+  .service-list {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .service-card {
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background: #002366;
+    color: white;
+  }
+  
