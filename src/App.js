@@ -9,6 +9,7 @@ import LoginPage from "./components/LoginPage";
 import EventListenerProvider from "./components/EventListenerProvider"; // Import event tracker
 
 import "./styles.css";
+import Detail from "./components/Detail";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/Home" element={<Detail />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
